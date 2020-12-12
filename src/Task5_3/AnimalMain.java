@@ -8,5 +8,11 @@ public class AnimalMain {
         Animal snail = new Snail("Kaa", "forest", false);
         Bird sparrow = new Sparrow("Serg", "air", 21, false);
 
+        cat.sleep();
+        dolphin.move();
+        human.eat();
+        snail.sleep();
+        sparrow.fly();
+
     }
 }
