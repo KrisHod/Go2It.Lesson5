@@ -1,7 +1,9 @@
 package Task5_4;
 
+import java.time.LocalDate;
+
 public abstract class Person {
-    private String DoB;
+    private LocalDate doB;
     private String name;
     private String placeOfBirth;
 
@@ -10,18 +12,18 @@ public abstract class Person {
 
     }
 
-    public Person(String doB, String name, String placeOfBirth) {
-        DoB = doB;
+    public Person(int year, int month, int day, String name, String placeOfBirth) {
+        this.doB =LocalDate.of(year, month, day);
         this.name = name;
         this.placeOfBirth = placeOfBirth;
     }
 
-    public String getDoB() {
-        return DoB;
+    public LocalDate getDoB() {
+        return doB;
     }
 
-    public void setDoB(String doB) {
-        DoB = doB;
+    public void setDoB(LocalDate doB) {
+        this.doB = doB;
     }
 
     public String getName() {

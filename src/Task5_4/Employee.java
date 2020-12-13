@@ -1,6 +1,8 @@
 package Task5_4;
 
-public abstract class Employee extends Person implements CareerMaking {
+import java.time.LocalDate;
+
+public abstract class Employee extends Person implements Promotionable {
     private int numWorkingHours;
     private String workPlace;
 
@@ -8,8 +10,8 @@ public abstract class Employee extends Person implements CareerMaking {
 
     }
 
-    public Employee(String doB, String name, String placeOfBirth, int numWorkingHours, String workPlace) {
-        super(doB, name, placeOfBirth);
+    public Employee(int year, int month, int day, String name, String placeOfBirth, int numWorkingHours, String workPlace) {
+        super(year, month, day, name, placeOfBirth);
         this.numWorkingHours = numWorkingHours;
         this.workPlace = workPlace;
     }

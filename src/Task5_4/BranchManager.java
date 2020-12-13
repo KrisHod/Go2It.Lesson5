@@ -1,5 +1,7 @@
 package Task5_4;
 
+import java.time.LocalDate;
+
 public class BranchManager extends Employee{
     private int numOfSubordinates;
 
@@ -7,8 +9,8 @@ public class BranchManager extends Employee{
 
     }
 
-    public BranchManager(String doB, String name, String placeOfBirth, int numWorkingHours, String workPlace, int numOfSubordinates) {
-        super(doB, name, placeOfBirth, numWorkingHours, workPlace);
+    public BranchManager(int year, int month, int day, String name, String placeOfBirth, int numWorkingHours, String workPlace, int numOfSubordinates) {
+        super(year, month, day, name, placeOfBirth, numWorkingHours, workPlace);
         this.numOfSubordinates = numOfSubordinates;
     }
 

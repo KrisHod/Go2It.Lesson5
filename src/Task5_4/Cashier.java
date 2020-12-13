@@ -1,13 +1,15 @@
 package Task5_4;
 
+import java.time.LocalDate;
+
 public class Cashier extends Employee{
 
     public Cashier (){
 
     }
 
-    public Cashier(String doB, String name, String placeOfBirth, int numWorkingHours, String workPlace) {
-        super(doB, name, placeOfBirth, numWorkingHours, workPlace);
+    public Cashier(int year, int month, int day, String name, String placeOfBirth, int numWorkingHours, String workPlace) {
+        super(year, month, day, name, placeOfBirth, numWorkingHours, workPlace);
     }
 
     @Override

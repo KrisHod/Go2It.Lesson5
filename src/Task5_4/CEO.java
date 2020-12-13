@@ -1,5 +1,7 @@
 package Task5_4;
 
+import java.time.LocalDate;
+
 public class CEO extends Employee {
     private double budgetToOperate;
 
@@ -7,8 +9,8 @@ public class CEO extends Employee {
 
     }
 
-    public CEO(String doB, String name, String placeOfBirth, int numWorkingHours, String workPlace, double budgetToOperate) {
-        super(doB, name, placeOfBirth, numWorkingHours, workPlace);
+    public CEO(int year, int month, int day, String name, String placeOfBirth, int numWorkingHours, String workPlace, double budgetToOperate) {
+        super(year, month, day, name, placeOfBirth, numWorkingHours, workPlace);
         this.budgetToOperate = budgetToOperate;
     }
 

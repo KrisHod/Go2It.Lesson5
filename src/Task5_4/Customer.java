@@ -1,5 +1,7 @@
 package Task5_4;
 
+import java.time.LocalDate;
+
 public class Customer extends Person{
     private int sumForShopping;
 
@@ -7,8 +9,8 @@ public class Customer extends Person{
 
     }
 
-    public Customer(String doB, String name, String placeOfBirth, int sumForShopping) {
-        super(doB, name, placeOfBirth);
+    public Customer(int year, int month, int day, String name, String placeOfBirth, int sumForShopping) {
+        super(year, month, day, name, placeOfBirth);
         this.sumForShopping = sumForShopping;
     }
 

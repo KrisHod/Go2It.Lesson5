@@ -1,9 +1,10 @@
 package Task5_3;
 
-public class Dolphin extends Mammal{
-private boolean isRiverDolphin;
+public class Dolphin extends Mammal {
+    private boolean isRiverDolphin;
 
-public Dolphin(){}
+    public Dolphin() {
+    }
 
     public Dolphin(String name, String habitat, boolean hasTail, boolean isRiverDolphin) {
         super(name, habitat, hasTail);

@@ -1,14 +1,16 @@
 package Task5_4;
 
-public class ClientAdvisor extends Employee implements CareerMaking{
+import java.time.LocalDate;
+
+public class ClientAdvisor extends Employee implements Promotionable {
     private int numOfClient;
 
     public ClientAdvisor (){
 
     }
 
-    public ClientAdvisor(String doB, String name, String placeOfBirth, int numWorkingHours, String workPlace, int numOfClient) {
-        super(doB, name, placeOfBirth, numWorkingHours, workPlace);
+    public ClientAdvisor(int year, int month, int day, String name, String placeOfBirth, int numWorkingHours, String workPlace, int numOfClient) {
+        super(year, month, day, name, placeOfBirth, numWorkingHours, workPlace);
         this.numOfClient = numOfClient;
     }
 
