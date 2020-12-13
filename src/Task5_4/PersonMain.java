@@ -5,7 +5,7 @@ public class PersonMain {
         Employee cashier = new Cashier("20-03-1988", "John", "USA", 8, "shop");
         Person customer = new Customer ("12-02-1967", "Kolya", "Ukraine", 1500);
         Employee branch_manager = new BranchManager("13-09-1978", "Lidia", "Moldova", 8, "bank", 14);
-        CareerMaking ceo = new CEO("25-06-1990", "Ann", "Canada", 12, "restaurant");
+        CareerMaking ceo = new CEO("25-06-1990", "Ann", "Canada", 12, "restaurant", 300000);
 
         System.out.println(branch_manager.spendFreeTime());
         branch_manager.makeCareer();
