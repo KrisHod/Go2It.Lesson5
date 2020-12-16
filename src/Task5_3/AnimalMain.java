@@ -5,7 +5,7 @@ public class AnimalMain {
         Animal cat = new Cat("Vasya", "home", true, "Siamese");
         Mammal dolphin = new Dolphin("Flipper", "river", true, true);
         Human human = new Human("Vladimir","nature", false, 30);
-        Animal snail = new Snail("Kaa", "forest", false);
+        Animal snail = new Snake("Kaa", "forest", false);
         Bird sparrow = new Sparrow("Serg", "air", 21, false);
 
         cat.sleep();

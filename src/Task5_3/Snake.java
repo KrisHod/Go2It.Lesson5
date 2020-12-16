@@ -1,13 +1,13 @@
 package Task5_3;
 
-public class Snail extends Animal{
+public class Snake extends Animal{
     private boolean isPoisonous;
 
-    public Snail(){
+    public Snake(){
 
     }
 
-    public Snail(String name, String habitat, boolean isPoisonous) {
+    public Snake(String name, String habitat, boolean isPoisonous) {
         super(name, habitat);
         this.isPoisonous = isPoisonous;
     }
