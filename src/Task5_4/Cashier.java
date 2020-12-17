@@ -21,4 +21,10 @@ public class Cashier extends Employee{
     public String spendFreeTime() {
         return "Cashier likes to walk his dog";
     }
+
+
+    static public String work (){
+        return "Cashier works";
+    }
+
 }

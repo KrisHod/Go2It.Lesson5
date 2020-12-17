@@ -10,7 +10,7 @@ public class PersonMain {
 
         System.out.println(branch_manager.spendFreeTime());
         branch_manager.makeCareer();
-        System.out.println(cashier.eat());
+        System.out.println(cashier.work());
         ceo.makeCareer();
         System.out.println(customer.sleep());
         System.out.println(janitor.getDoB());

@@ -32,8 +32,8 @@ public abstract class Employee extends Person implements Promotionable {
         this.workPlace = workPlace;
     }
 
-    public String work() {
-        return getClass() + " works at the " + workPlace + " " + numWorkingHours + " a day";
+    static public String work() {
+        return  "Employee works";
     }
 
     public abstract String takeLunch();
